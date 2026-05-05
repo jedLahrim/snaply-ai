@@ -1,5 +1,12 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/$1" }
+  ],
+  "redirects": [
+    {
+      "source": "/contact",
+      "destination": "https://veyare.com/contact",
+      "permanent": true
+    }
   ]
 }
